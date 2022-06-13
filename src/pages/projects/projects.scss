@@ -1,0 +1,83 @@
+.section {
+    padding-bottom: 45px;
+
+    .project-page {
+        margin-bottom: 30px;
+    }
+
+    .tabs-container {
+        margin-bottom: 25px;
+
+        .custom-tabs {
+            .custom-tabs-item {
+                padding: 0 !important;
+                min-width: 0 !important;
+                margin-right: 20px !important;
+                text-transform: inherit !important;
+                font-size: 17px !important;
+                font-weight: 400 !important;
+                outline-width: 0 !important;
+            }
+
+            .active {
+                color: var(--main-color);
+            }
+        }
+    }
+
+    .projects-container {
+        .project-card {
+            height: 100%;
+            max-width: 350px;
+            box-shadow: 0 0 48px 0 rgba(4, 6, 4, 0.08) !important;
+            border-radius: 5px;
+            overflow: hidden;
+            outline-width: 0 !important;
+
+            .project-card-image {
+                height: 140px;
+            }
+
+            .project-card-title {
+                font-weight: 600;
+            }
+
+            .project-card-caption {
+                color: gray !important;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+.projectDialog {
+    .projectDialog-image {
+        max-height: 300px;
+        width: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+
+    .projectDialog-description {
+        margin-top: 10px !important;
+    }
+
+    .projectDialog-actions {
+        justify-content: center !important;
+        margin-bottom: 10px;
+
+        .projectDialog-icon {
+            color: darkslategray;
+            margin: 0 12px;
+            cursor: pointer;
+
+            .MuiSvgIcon-root {
+                font-size: 30px !important;
+            }
+
+            :hover {
+                color: var(--main-color);
+            }
+        }
+    }
+}
